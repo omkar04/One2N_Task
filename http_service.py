@@ -1,6 +1,12 @@
 from flask import Flask, jsonify
 import boto3
 from botocore.exceptions import NoCredentialsError, PartialCredentialsError ,ClientError
+import logging
+
+import os
+print(os.environ.get('AWS_ACCESS_KEY_ID'))
+
+boto3.set_stream_logger(name='botocore', level=logging.DEBUG)
 
 app = Flask(__name__)
 
@@ -35,4 +41,5 @@ def list_bucket_content(path):
     except ClientError as e:
         return jsonify({"error": str(e)}), 500
 if __name__ == '__main__':
-    app.run(host='0.0.0.0', port=5000)
+    app.run(host='0.0.0.0', port=5000 ,  debug=True)
+    
