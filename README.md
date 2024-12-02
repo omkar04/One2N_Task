@@ -16,7 +16,7 @@ step 4 :- Run the application using python app.py
           ![image](https://github.com/user-attachments/assets/27d288f0-8e21-47e1-a0bb-77c9dec10b4d)
           Code is provided in http_service.py.
           Below are the images on the output :-
-          Homepage :-
+         Homepage :-
           ![image](https://github.com/user-attachments/assets/992df22c-f8e0-4219-bf8f-bf4b5f59436f)
           Listing dir in buckets:-
           ![image](https://github.com/user-attachments/assets/f117baa1-a602-4830-86f1-28cc642581f2)
