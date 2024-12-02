@@ -84,7 +84,7 @@ Dir1 path :-
 Dir2 path :- 
             
 ![image](https://github.com/user-attachments/assets/ac5c0b31-bee6-4c58-ac99-defa08de8758)
-            Tf main code is in main.tf file and varialbles and creds are fetched through variables.tf
+            Tf main code is in main.tf file and variable's and cred's are fetched through variables.tf
 
 
              
